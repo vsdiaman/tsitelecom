@@ -1,1 +1,54 @@
-<p>register works!</p>
+<body>      
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Registration</span>
+                <form  action="#">
+                    <div class="input-field">
+                        <input
+                        value=''
+                        type="text"
+                        placeholder="Enter your name"
+                        required
+                        />
+                        <fa-icon class="i" [icon]="MyfaUser"  size="sm" />
+                    </div>
+        <div class="input-field">
+            <input
+            value=''
+            type="text"
+              placeholder="Enter your email"
+              required
+              />
+              <fa-icon class="i" [icon]="MyfaEnvelope" size="sm" />
+            </div>
+            <div class="input-field">
+                <input
+                value=''
+                type="password"
+                class="password"
+                placeholder="Enter your password"
+                required
+                />
+                <fa-icon class="i" [icon]="MyfaLock" size="sm"/>
+                <i class="uil uil-lock icon"></i>
+                <i class="uil uil-eye-slash showHidePw"></i>
+            </div>
+            
+            <div class="input-field button">
+                <input type="button" value="Signup" />
+            </div>
+        </form>
+        
+        <div class="login-signup">
+            <span class="text">
+                Already have an account?
+                <a routerLink="/" class="text signup-link">
+                    Login Now
+                </a>
+            </span>
+        </div>
+    </div>
+</div>
+</div>
+</body>

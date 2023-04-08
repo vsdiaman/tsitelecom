@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faUnlockKeyhole } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -8,7 +7,6 @@ import { faEnvelope, faUnlockKeyhole } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./login.component.css'],
 })
 export class LoginComponent implements OnInit {
-  MyfaLinkedin = faLinkedin;
   MyfaEnvelope = faEnvelope;
   MyfaUnlockKeyhole = faUnlockKeyhole;
 
@@ -18,9 +16,7 @@ export class LoginComponent implements OnInit {
     this.username = 'username teste';
     this.password = 'senha teste';
   }
-  ngOnInit() {
+  ngOnInit(): void {
     // Aqui você pode adicionar a lógica para autenticar o usuário
-    console.log('Username:', this.username);
-    console.log('Password:', this.password);
   }
 }

@@ -1,28 +1,29 @@
+<router-outlet/>
+<!-- <header class="header">
+    <span><a routerLink="/"><img class="logo" src="../../assets/img/logomarca.png" alt="TSITELECOM-Logo"/></a></span>
+</header> -->
 <body>
-
-    <div class="container">
-        <div class="forms">
-            <div class="form login">
-      <span class="title">Login</span>
-
-      <form onSubmit="" action="#">
-          <div class="input-field">
-              <input value="" type="text" placeholder="Enter your email" required />
-              <fa-icon class="i" [icon]="MyfaEnvelope" size="sm"/>
-            </div>
-            <div class="input-field">
-                <input
-                value=""
-                type="password"
-            class="password"
-            placeholder="Enter your password"
-            required
-            />
-            <!-- <FontAwesomeIcon className="i" icon={faLock} /> -->
-            <fa-icon class="i" [icon]="MyfaUnlockKeyhole" size="sm"/>
-        </div>
-        
-        <div class="checkbox-text">
+            <div class="container">
+                <div class="forms">
+                    <div class="form login">
+                        <span class="title">Login</span>
+                        <form onSubmit="" action="#">
+                            <div class="input-field">
+                                <input value="" type="text" placeholder="Enter your email" required />
+                                <fa-icon class="i" [icon]="MyfaEnvelope" size="sm"/>
+                            </div>
+                            <div class="input-field">
+                                <input
+                                value=""
+                                type="password"
+                                class="password"
+                                placeholder="Enter your password"
+                                required
+                                />
+                                <fa-icon class="i" [icon]="MyfaUnlockKeyhole" size="sm"/>
+                            </div>
+                            
+                            <div class="checkbox-text">
             <div class="checkbox-content">
                 <input type="checkbox" id="logCheck" />
                 <label for="logCheck" class="text"> Remember me </label>
@@ -36,13 +37,15 @@
         </div>
     </form>
     
-      <div class="login-signup">
-          <span class="text">
-              Not a member?
-              <a href="/register" class="text signup-link"> Signup Now </a>
-            </span>
-        </div>
+    <div class="login-signup">
+        <nav class="text">
+            Not a member?
+            <a routerLink="/register" class="text signup-link"> Signup Now </a>
+        </nav>
     </div>
 </div>
 </div>
+</div>
 </body>
+
+

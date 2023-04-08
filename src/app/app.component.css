@@ -1,0 +1,15 @@
+.header {
+  display: block;
+  align-items: center;
+  /* background-color: #4070f4; */
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header .logo {
+  max-width: 200px;
+}
