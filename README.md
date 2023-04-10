@@ -4,7 +4,27 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Front End Navigate to `http://localhost:4200/`
+Back End Navigate to `http://localhost:4000/`
+
+## 🚀 Technologies
+
+- [JavaScript](https://www.javascript.com/)
+- [Angular](https://angular.io//)
+- [fontawesome](https://fontawesome.com/)
+- [Css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [mongodb](https://cloud.mongodb.com/)
+- [NodeJs](https://nodejs.org/en)
+- [JWT](https://jwt.io/introduction)
+- [express](http://expressjs.com/)
+- [postman](https://www.postman.com/)
+- [Linux-Ubuntu](https://ubuntu.com/)
+
+OBS: Faltando implementar WebSocket, migrar o banco para SQlite e conectar com o front feito pelo angular.
+
+VIDEO TESTANDO A AUTH LOGIN E SIGNUP COM MONGO EM POSTMAN E O FRONT EM ANGULAR
+https://youtu.be/rPkl4ErQIdI
+
 
 ## Code scaffolding
 
