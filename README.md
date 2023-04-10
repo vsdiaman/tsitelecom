@@ -22,7 +22,7 @@ Back End Navigate to `http://localhost:4000/`
 
 OBS: Faltando implementar WebSocket, migrar o banco para SQlite e conectar com o front feito pelo angular.
 
-VIDEO TESTANDO A AUTH LOGIN E SIGNUP COM MONGO EM POSTMAN
+VIDEO TESTANDO A AUTH LOGIN E SIGNUP COM MONGO EM POSTMAN E O FRONT EM ANGULAR
 https://youtu.be/rPkl4ErQIdI
 
 
