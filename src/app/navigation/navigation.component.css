@@ -1,0 +1,14 @@
+header {
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin-right: 40px;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+}

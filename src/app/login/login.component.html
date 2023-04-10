@@ -1,15 +1,16 @@
-<router-outlet/>
+
 <!-- <header class="header">
     <span><a routerLink="/"><img class="logo" src="../../assets/img/logomarca.png" alt="TSITELECOM-Logo"/></a></span>
 </header> -->
+<!-- <router-outlet></router-outlet> -->
 <body>
             <div class="container">
                 <div class="forms">
                     <div class="form login">
                         <span class="title">Login</span>
-                        <form onSubmit="" action="#">
+                        <form (ngSubmit)="submitForm()" [formGroup]="form" autocomplete="off">
                             <div class="input-field">
-                                <input value="" type="text" placeholder="Enter your email" required />
+                                <input formControlName="login" placeholder="Enter your email" required />
                                 <fa-icon class="i" [icon]="MyfaEnvelope" size="sm"/>
                             </div>
                             <div class="input-field">
@@ -18,7 +19,7 @@
                                 type="password"
                                 class="password"
                                 placeholder="Enter your password"
-                                required
+                                formControlName="password"
                                 />
                                 <fa-icon class="i" [icon]="MyfaUnlockKeyhole" size="sm"/>
                             </div>
@@ -33,7 +34,7 @@
         </div>
         
         <div class="input-field button">
-            <input type="button" value="Login" />
+            <input type="submit" value="Login" />
         </div>
     </form>
     
