@@ -2,7 +2,7 @@
 @import "~@fortawesome/fontawesome-free/css/all.css";
 
 .chat-container {
-  height: 98vh;
+  height: 92vh;
   /* width: 99vw; */
   display: flex;
   flex-direction: column;
